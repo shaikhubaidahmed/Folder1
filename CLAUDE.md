@@ -52,6 +52,10 @@ Never optimize for producing code quickly at the expense of research validity.
 15. **Do not silently guess.** If an important research detail is ambiguous or underspecified, stop and ask rather than implementing an unsupported assumption.
 16. Before declaring a task complete, perform sanity checks and verify the implementation actually matches the intended methodology.
 
+## Git Commits
+
+- Never add a "Co-Authored-By" line or any co-author attribution to git commit messages or pull request descriptions.
+
 ## Notes for Working in This Repo
 
 - `AntiStyler/` contains the reference implementation, demo notebook (`AntiStyler_Demo.ipynb`), and the paper transcription. Treat the paper (`AntiStyler_paper.md`) as the ground truth for the method's equations, pipeline phases, and reported numbers — cross-check any reimplementation or extension against it rather than reconstructing the method from memory.
