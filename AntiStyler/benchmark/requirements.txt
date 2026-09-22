@@ -1,0 +1,13 @@
+# Pinned to what was actually verified to work together for the Table 1
+# benchmark (see README.md). torch/torchvision are CUDA 12.1 wheels here;
+# on a different CUDA version, install torch/torchvision from
+# https://pytorch.org/get-started/locally/ first, then install the rest.
+#
+# ART version matches AntiStyler_paper.md Section 5.1 ("ART 1.15.1").
+torch==2.2.1
+torchvision==0.17.1
+adversarial-robustness-toolbox==1.15.1
+pycocotools==2.0.11
+numpy==1.26.4
+pillow==10.4.0
+matplotlib==3.9.2

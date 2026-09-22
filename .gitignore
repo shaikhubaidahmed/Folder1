@@ -1,1 +1,8 @@
 AntiStyler/benchmark/data/
+AntiStyler/benchmark/results/
+AntiStyler/benchmark/results_google/
+AntiStyler/benchmark/results_dpatch/
+AntiStyler/benchmark/results_mpgd/
+AntiStyler/benchmark/*.log
+__pycache__/
+
